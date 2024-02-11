@@ -130,8 +130,7 @@ let localState = localStorage.getItem("blocks");
 if (localState) {
   blocks = JSON.parse(localState);
   let ho = [];
-  let holdL;
-  localStorage.getItem("holdedBlock");
+  let holdL = localStorage.getItem("holdedBlock");
   for (let index = 0; index < blocks.length; index++) {
     if (holdL) {
       ho = JSON.parse(holdL);
