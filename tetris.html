@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="uft-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>tetris</title>
+    <link rel="shortcut icon" href="./img/img.png" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="hold-screen">
+      <span id="hold">Hold</span>
+      <div id="hold-block"></div>
+    </div>
+    <div id="main-screen">
+      <div id="game-box"></div>
+      <div id="score-box">
+        <span id="score-span">SCORE</span>
+        <span id="score">0</span>
+      </div>
+    </div>
+    <div id="next-screen">
+      <span id="next">Next</span>
+      <div id="next-block1" class="next-block"></div>
+      <div id="next-block2" class="next-block"></div>
+      <div id="next-block3" class="next-block"></div>
+      <div id="next-block4" class="next-block"></div>
+    </div>
+    <script src="js/score.js"></script>
+    <script src="js/createnewblock.js"></script>
+    <script src="js/holdblock.js"></script>
+    <script src="js/moveblock.js"></script>
+  </body>
+</html>
